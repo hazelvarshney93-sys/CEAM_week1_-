@@ -14,4 +14,4 @@ it gave much more accurate results. Also at the same time reducing the batch siz
 
 The third and the biggest issue I encountered was that my model gave the same output no matter what image I uploaded. This was because I was using an Artifical Neural Network instead of a Convolutional Neural Network. An ANN seemed to work fine for the MNIST database model but the problem with it was that it was destroying the overall spatial structure of the pictures. What a CNN does better is that it does not flatten the image. It keeps the image as is and slides small filters across it, which in the end gave much more accurate results. I have attatched all of those scenarios alongwith their graphs.
 
-I have also attatched the custom dataset for this project. I have also attatched some more pictures I took of my hotwheels that are not included in my dataset, so you can test it on your own.
+I have also attached the custom dataset for this project. I have also attached some more pictures I took of my hotwheels that are not included in my dataset, so you can test it on your own.
