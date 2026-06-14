@@ -10,7 +10,7 @@ The first issue I encountered was the file size. My model was taking around 5 mi
 in order to fix this problem.
 
 The second issue issue was underfitting, where I was only using 10 epochs because the dataset I was using previously was too large. I turned up the epochs to 50 and
-it gave much more accurate results.
+it gave much more accurate results. Also at the same time reducing the batch size from 32 to 8.
 
 The third and the biggest issue I encountered was that my model gave the same output no matter what image I uploaded. This was because I was using an Artifical Neural Network instead of a Convolutional Neural Network. An ANN seemed to work fine for the MNIST database model but the problem with it was that it was destroying the overall spatial structure of the pictures. What a CNN does better is that it does not flatten the image. It keeps the image as is and slides small filters across it, which in the end gave much more accurate results. I have attatched all of those scenarios alongwith their graphs.
 
